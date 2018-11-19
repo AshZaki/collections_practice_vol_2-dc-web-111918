@@ -38,7 +38,7 @@ def remove_non_strings(input)
 end
 
 def count_elements(input)
-  hash = {}
+  hash = Hash.new(0)
   input.collect { |element| hash[element] += 1 }
   hash.collect do |hash, number|
     hash[:count] = number
