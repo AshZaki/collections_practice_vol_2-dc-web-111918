@@ -42,8 +42,8 @@ def count_elements(arr)
   arr.each do |element|
     hash[element] ||= 0
     hash[element] += 1
-    binding.pry
   end
+  return hash
 end
 
 
