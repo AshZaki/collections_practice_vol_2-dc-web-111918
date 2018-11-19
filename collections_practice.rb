@@ -43,6 +43,7 @@ def count_elements(input)
   hash.collect do |hash, number|
     hash[:count] = number
   end
+  binding.pry
   return hash.keys
 end
 
