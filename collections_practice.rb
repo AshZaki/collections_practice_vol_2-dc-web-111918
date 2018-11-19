@@ -48,9 +48,9 @@ end
 
 
 def merge_data(keys, data)
-  keys.each do |name_hash|
+  keys.each do |names|
     data.each do |hash|
-      name_hash.merge!(hash[name_hash[:first_name]])
+      names.merge!(hash[names[:first_name]])
     end
   end
 end
