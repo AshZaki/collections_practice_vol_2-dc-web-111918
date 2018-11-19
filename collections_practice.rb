@@ -39,6 +39,7 @@ end
 
 def count_elements(input)
   hash = {}
+  binding.pry
   array.collect { |element| hash[element] += 1 }
   hash.collect do |hash, number|
     hash[:count] = number
