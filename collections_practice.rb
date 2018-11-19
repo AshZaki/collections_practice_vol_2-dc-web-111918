@@ -41,7 +41,7 @@ def count_elements(arr)
   hash = {}
   arr.each do |element|
     hash[element] ||= 0
-    
+    hash[element] += 1
   end
 end
 
