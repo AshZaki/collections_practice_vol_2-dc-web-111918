@@ -39,10 +39,10 @@ end
 
 def count_elements(input)
   hash = {}
-  array.collect {|element| hash[element]+=1 }
-    hash.collect do |hash, number|
-      hash[:count] = number
-    end
+  array.collect { |element| hash[element] += 1 }
+  hash.collect do |hash, number|
+    hash[:count] = number
+  end
   return hash.keys
 end
 
