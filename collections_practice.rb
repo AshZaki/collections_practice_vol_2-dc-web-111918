@@ -37,9 +37,10 @@ def remove_non_strings(input)
   return new_array
 end
 
-def count_elements(hash)
-  hash.each do |a,b|
-    binding.pry
+def count_elements(arr)
+  hash = {}
+  arr.each do |element|
+    hash[element]
   end
 end
 
