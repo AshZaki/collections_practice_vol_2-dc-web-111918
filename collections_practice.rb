@@ -40,7 +40,8 @@ end
 def count_elements(arr)
   hash = {}
   arr.each do |element|
-    hash[element]
+    hash[element] ||= 0
+    
   end
 end
 
