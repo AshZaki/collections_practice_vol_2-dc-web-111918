@@ -1,3 +1,4 @@
+require "pry"
 def begins_with_r(input)
   input.each do |el|
     if !el.start_with?("r")
@@ -36,8 +37,10 @@ def remove_non_strings(input)
   return new_array
 end
 
-def count_elements
-  
+def count_elements(hash)
+  hash.each do |a,b|
+    binding.pry
+  end
 end
 
 
