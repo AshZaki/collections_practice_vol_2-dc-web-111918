@@ -70,5 +70,5 @@ def organize_schools(schools)
         end
       end
     end
-    by_location
+   return by_location
 end
