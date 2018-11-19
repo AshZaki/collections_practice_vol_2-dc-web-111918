@@ -40,9 +40,9 @@ end
 def count_elements(input)
   arr = {}
   input.each do |element|
-    hash[:count] ||= 0
-    hash[:count] += 1
-    hash[:name] ||= element
+    arr.push({:name => element,
+              :count => 
+    })
   end
   return hash
 end
