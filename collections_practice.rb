@@ -37,9 +37,9 @@ def remove_non_strings(input)
   return new_array
 end
 
-def count_elements(arr)
-  hash = {}
-  arr.each do |element|
+def count_elements(input)
+  arr = {}
+  input.each do |element|
     hash[:count] ||= 0
     hash[:count] += 1
     hash[:name] ||= element
