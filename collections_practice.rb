@@ -36,7 +36,9 @@ def remove_non_strings(input)
   return new_array
 end
 
-
+def count_elements
+  
+end
 
 
 
