@@ -38,13 +38,12 @@ def remove_non_strings(input)
 end
 
 def count_elements(input)
-  arr = {}
-  input.each do |element|
-    arr.push({:name => element,
-              :count => 
-    })
-  end
-  return hash
+  hash = {}
+  array.collect {|element| hash[element]+=1 }
+    hash.collect do |hash, number|
+      hash[:count] = number
+    end
+  return hash.keys
 end
 
 
